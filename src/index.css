@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* EraaSoft brand palette (taken from eraasoft.com) */
+@theme {
+  --font-sans: "Cairo", ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand: #2243a4;
+  --color-brand-dark: #253d8e;
+  --color-navy: #0c1739;
+  --color-navy-soft: #161e31;
+  --color-sky: #becbf2;
+  --color-cream: #faf3d7;
+  --color-gold: #e6c238;
+  --color-gold-dark: #806c1f;
+  --color-muted: #7f7f7f;
+}
+
+body {
+  @apply bg-cream/40 font-sans text-navy antialiased;
+}
